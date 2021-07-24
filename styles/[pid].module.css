@@ -1,0 +1,30 @@
+.imageHolder{
+    width: 60%;
+    height: 70%;
+    margin: 0 20%;
+    margin-top: 2rem;
+}
+.header{
+    text-align: left;
+    font-size: 6rem;
+    margin-top: 1.8rem;
+    color: #000;
+}
+.headerHolder{
+    width: 45%;
+    margin: 4rem auto;
+}
+@media(max-width:900px){
+    .imageHolder{
+      width: 80%;
+      margin: 0 10%;
+    }
+    .headerHolder{
+        width: 80%;
+        margin: 0 10%;
+        margin-bottom: 1rem;
+    }
+    .header{
+        font-size: 3.7rem;
+    }
+}

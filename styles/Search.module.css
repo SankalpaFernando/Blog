@@ -1,0 +1,43 @@
+.main{
+
+}
+.input{
+    width: 60%;
+    margin: 1rem 20%;
+    font-size: 1rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    border: .2rem solid #c8c8c8;
+    outline: 0;
+}
+.chip{
+    background-color: #F5F5F5;
+    width: max-content;
+    height: max-content;
+    padding: .5rem 1.4rem;
+    border-radius: 1.2rem;
+    color: #8F8F8F;
+}
+.chipholder{
+    width:80%;
+    margin:0 20%;
+    display:flex;
+    flex-wrap: wrap;
+    gap:1rem;
+
+}
+.chip:hover{
+    cursor: pointer;
+    outline-color: rgba(78, 78, 78, 0.856);
+    color: #FFF;
+}
+@media(max-width:768px) {
+    .input{
+      width:90%;
+      margin: 1rem 5%;
+    }
+    .chipholder{
+        width: 90%;
+        margin: 1rem 5%;
+    }
+}
