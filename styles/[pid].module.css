@@ -2,8 +2,8 @@
     display: block;
     position: relative;
     box-sizing: border-box;
-    width: 1000px;
-    height: 500px;
+    width: 60%;
+    height: 600px;
     margin: 0 auto;
     margin-top: 2rem;
 }
@@ -29,5 +29,19 @@
     }
     .header{
         font-size: 3.7rem;
+    }
+}
+@media(max-width:768px){
+    .imageHolder{
+        width: 80%;
+        height: 400px;
+        margin: auto;
+    }
+}
+@media(max-width:400px){
+    .imageHolder{
+        width: 80%;
+        height: 200px;
+        margin: auto;
     }
 }
