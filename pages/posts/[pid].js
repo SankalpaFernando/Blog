@@ -39,7 +39,7 @@ export default function Post({post}) {
             <p style={{color:"#A0A4A7",fontSize:"1.4rem",margin:"1rem 0rem"}}>{readingTime(post[0].html).text} • {moment(post[0].published_at).format('DD MMM YYYY')}</p>
             </div>
             <div className={styles.imageHolder}>
-                <img src={post[0].feature_image} alt="newImg" />
+                <Image src={post[0].feature_image} layout="fill" alt="newImg" />
             </div>
             <div className="gh-content" dangerouslySetInnerHTML={{__html:post[0].html}}>
                 

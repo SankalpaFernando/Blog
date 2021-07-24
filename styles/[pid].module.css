@@ -1,7 +1,10 @@
 .imageHolder{
-    width: 60%;
-    height: 70%;
-    margin: 0 20%;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
     margin-top: 2rem;
 }
 .header{

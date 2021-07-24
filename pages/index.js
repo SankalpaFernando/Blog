@@ -25,7 +25,7 @@ export const  getServerSideProps = async({query}) =>{
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h2 className={styles.blog}>
-        Sankalpa's Blog
+        Sankalpa&apos;s Blog
 
       </h2>
       <div className={styles.sidemain}>
