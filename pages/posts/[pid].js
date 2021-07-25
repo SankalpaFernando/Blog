@@ -32,6 +32,8 @@ export default function Post({post}) {
                 <title>{post[0].title}</title>
                 <meta property="og:title" content={post[0].meta_title}></meta>
                 <meta property="og:description" content={post[0].meta_description}></meta>
+                <meta property="title" content={post[0].meta_title}></meta>
+                <meta property="description" content={post[0].meta_description}></meta>
             </Head>
             <div className={styles.headerHolder}>
             <h1 className={styles.header}>{post[0].title}</h1>
