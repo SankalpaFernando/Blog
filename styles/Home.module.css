@@ -38,6 +38,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   width: 80%;
   margin: 1rem 10%;
+  margin-bottom: 4rem;
   gap: 2rem;
   height: max-content;
 }
