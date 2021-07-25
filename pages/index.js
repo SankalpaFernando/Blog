@@ -40,9 +40,6 @@ export const  getServerSideProps = async({query}) =>{
           })
         }
       </div>
-      <div className="footer">
-        Copyright @ Sankalpa
-      </div>
     </div>
   )
 }
