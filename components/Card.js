@@ -10,7 +10,7 @@ function Card({title,feature_image,id}) {
                 {title}
             </h2>
         </div>
-    )
+    );
 }
 
 export default Card
